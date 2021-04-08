@@ -36,6 +36,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+
         audioManager=(AudioManager) getSystemService(Context.AUDIO_SERVICE);
 
         // find view by id
